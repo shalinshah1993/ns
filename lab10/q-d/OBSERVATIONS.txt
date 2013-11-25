@@ -1,0 +1,19 @@
+#For p = 10 ^ (-2)
+
+(Formula-1) Throughput = 216.506350946
+(Formula-2) Throughput = 198.57721166
+(AWK script value) Link Utilizatio(%) : 2.195088
+
+-------------------------------------------------
+
+#For p = 10 ^ (-4)
+
+Throughput1 = 2165.06350946
+Throughput2 = 500
+(AWK script value) Link Utilization(%) : 12.902766
+
+
+- Hence, we can say that when P(loss probablity) is less then link utilization is more. This is clear from the graph since incase of p = 0.01 there are a lot of sharp ripples while in case of p = 0.0001 just one or ripples can be found which shows that if less drop packet probablity then less ripples.
+
+
+- Also,second formula is a valid one when p = 0.01 i.e when los probablity is high since when it is low then there weould be an upper cap on formula-2 in which case formula -1 would be valid.

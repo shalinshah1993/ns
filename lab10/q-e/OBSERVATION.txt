@@ -1,0 +1,26 @@
+E) - Output of AWK Script :- 
+
+Link Utilization 1(%) : 19.422054
+Throughput 1 : 1553764.320000
+
+Link Utilization 2(%) : 0.001100
+Throughput 2 : 88.000000
+
+No of receieved Bytes TCP 1 : 194220540.000000
+No of receieved Bytes TCP 2 : 11000.000000
+
+ 
+- As we can see it is clear that link utilization is not equal rather first TCP source get much more throughput as compared to second.
+
+F) - Output of AWK Script :-
+
+Link Utilization 1(%) : 1.581214                                                                                                                  
+Throughput 1 : 1264971.200000                                                                                                                     
+
+Link Utilization 2(%) : 8.705250                                                                                                                  
+Throughput 2 : 278568.000000                 
+
+No of receieved Bytes TCP 1 : 158121400.000000
+No of receieved Bytes TCP 2 : 34821000.000000
+
+- As we can see it is clear that link utilization is not equal but still throughput has far more increased as compared to the first case and ga[ in the no of receieved packets has reduced considerably. Here, CBR is favoured in the link.  
